@@ -243,7 +243,13 @@ li{
         font-size: 20px;
     }
     .x{
-        margin-left: 30px;
+        margin-left: 15px;
+    }
+    .x .two{
+        margin-right: 0;
+        padding-right: 0px;
+        /* text-align: center; */
+        display: block;
     }
     .sec-3 h1{
         text-align: center;
@@ -283,4 +289,13 @@ li{
 }
 #meet{
     font-size: 30px;
+}
+@media (max-width:884px){
+    #FOOT{
+        display: block;
+        max-width: 400px;
+        margin: auto;
+        padding-top: 100px;
+        
+    }
 }
